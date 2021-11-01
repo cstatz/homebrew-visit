@@ -1,11 +1,11 @@
 # Documentation: https://docs.brew.sh/Formula-Cookbook
 #                https://rubydoc.brew.sh/Formula
 # PLEASE REMOVE ALL GENERATED COMMENTS BEFORE SUBMITTING YOUR PULL REQUEST!
-class Blaze < Formula
+class BlazeGit < Formula
   desc "A high performance C++ math library."
   homepage "https://bitbucket.org/blaze-lib/blaze/"
-  url "https://bitbucket.org/blaze-lib/blaze/downloads/blaze-3.8.tar.gz"
-  sha256 "dfaae1a3a9fea0b3cc92e78c9858dcc6c93301d59f67de5d388a3a41c8a629ae"
+  #  url "https://bitbucket.org/blaze-lib/blaze/get/master.tar.gz"
+  head "https://bitbucket.org/blaze-lib/blaze.git"
 
   depends_on "cmake" => :build
 
