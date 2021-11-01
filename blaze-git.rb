@@ -4,7 +4,8 @@
 class BlazeGit < Formula
   desc "A high performance C++ math library."
   homepage "https://bitbucket.org/blaze-lib/blaze/"
-  url "https://bitbucket.org/blaze-lib/blaze/get/master.tar.gz"
+  #  url "https://bitbucket.org/blaze-lib/blaze/get/master.tar.gz"
+  head "https://bitbucket.org/blaze-lib/blaze.git"
 
   depends_on "cmake" => :build
 
