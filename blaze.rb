@@ -4,8 +4,8 @@
 class Blaze < Formula
   desc "A high performance C++ math library."
   homepage "https://bitbucket.org/blaze-lib/blaze/"
-  url "https://bitbucket.org/blaze-lib/blaze/downloads/blaze-3.7.tar.gz"
-  sha256 "ef3cbc5db7d62dcdde0af88d3c951051254afd750d26773406fddb6afc5ad890"
+  url "https://bitbucket.org/blaze-lib/blaze/downloads/blaze-3.8.tar.gz"
+  sha256 "dfaae1a3a9fea0b3cc92e78c9858dcc6c93301d59f67de5d388a3a41c8a629ae"
 
   depends_on "cmake" => :build
 
